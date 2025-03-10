@@ -1,0 +1,95 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    position:absolute;
+    top:5px;
+    left: 160px;
+}
+nav a img{
+    width: 150px;
+}
+    
+
+body {
+    background: url("https://subham2942.github.io/Netflix-sign-In-Clone/images/background.jpg")  no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    
+}
+
+.container {
+    background: black;
+    padding: 50px;
+    border-radius: 8px;
+    width: 380px;
+    text-align: center;
+    color: white;
+   
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background:#333;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #e50914;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+button:hover {
+    background: #b20710;
+}
+
+.support {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.support a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+p a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+   
+
+    
